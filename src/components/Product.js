@@ -14,7 +14,7 @@ const Product = ({ item }) => {
 
   const getRandomImage = () => {
     const randomNumber = Math.floor(Math.random() * 12) + 1;
-    return `./iphone-${randomNumber}.jpeg`;
+    return `./iphone-${randomNumber}.jpg`;
   };
 
   return (
